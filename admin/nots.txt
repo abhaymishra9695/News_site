@@ -1,0 +1,42 @@
+mysqli_real_escape_string(conection name, variablename)-ye function validetion ke kam aata hai
+
+md5(password)-ye function password ko incrupted form me kardeta hai
+$_GET['id']-ye uper path se data le leta hai
+
+Pagination:- jb record kai pages me dikhane padte hai
+
+How to Calculate total pages mtlb record ko kitne pages me rakhne hai?
+
+total records
+limit per page-mtlb ek page me kitne record dikhane hai
+
+total pages=total records/limit per page
+ceil(total pages)-ye function decimal form ki uper value de deta.
+jese-2.24=3
+
+total page=3
+
+How to show different record on each page?
+SELECT*FROM table_name LIMIT offset, limit;
+offset-record kaha se dikhane hai
+limit-kaha tk dikhane hai
+
+offset=(PageNumber-1)*limit
+
+ enctype="multipart/form-data-ye form tag ka attribute hai eska use tb krte hai jb koi file (image/document etc.) krte hai.
+
+explode()-ye function string ko tod deta hai
+file bytes me upload hoti hai
+
+1kb=1024byte
+1mb=1024kb
+
+unlink()-kisi folder se file ko delete karene ke liye karate hai
+
+
+
+
+
+
+
+
